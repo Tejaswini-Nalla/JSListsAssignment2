@@ -1,5 +1,5 @@
 function isUnique(currentelement,index,list) {
-    const elementOccurrences = element => element === currentelement;
+    const elementOccurrences = element => element === currentElement;
     let numberOfOccurrences = list.filter(elementOccurrences).length;
     return numberOfOccurrences === 1;
 }
