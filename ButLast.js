@@ -6,5 +6,7 @@ function excludeLastElement(list) {
 
 function main() {
     console.log(excludeLastElement([1,2,3,4]));
-    console.log(exclude)
+    console.log(excludeLastElement([]));
 }
+
+main();
