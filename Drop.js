@@ -1,10 +1,6 @@
 function drop(list, numberOfElements) {
-    let result = list;
-    while(numberOfElements > 0) {
-        result.shift();
-        numberOfElements --;
-    }
-    return result;
+    let startIndex = numberOfElements;
+    return list.slice(startIndex);
 }
 
 function main() {

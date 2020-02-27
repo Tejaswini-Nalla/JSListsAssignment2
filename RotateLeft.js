@@ -1,11 +1,11 @@
+function rotateElement(element, index, list) {
+    let newIndex = (index + this)%list.length;
+    return list[newIndex];
+}
+
 function rotateLeft(list, numberOfTimes) {
-    let result = list;
-    while(numberOfTimes > 0) {
-        let element = result.shift();
-        result.push(element);
-        numberOfTimes--;
-    }
-    return list;
+    let rotatedElements = list.map(rotateElement, numberOfTimes);
+    return rotatedElements;
 }
 
 function main() {

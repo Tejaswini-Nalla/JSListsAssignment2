@@ -1,7 +1,6 @@
 function excludeFirstElement(list) {
-    let result = list;
-    result.shift();
-    return result;
+    let startIndex = 1;
+    return list.slice(startIndex);
 }
 
 function main() {
