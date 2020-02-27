@@ -1,10 +1,10 @@
-function isUnique(currentelement,index,list) {
+function isUniqueElement(currentElement,index,list) {
     const elementOccurrences = element => element === currentElement;
     let numberOfOccurrences = list.filter(elementOccurrences).length;
     return numberOfOccurrences === 1;
 }
 function isDistinct(list) {
-    return list.every(isUnique)
+    return list.every(isUniqueElement)
 }
 
 function main() {
