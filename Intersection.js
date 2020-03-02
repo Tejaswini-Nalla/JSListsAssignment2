@@ -5,7 +5,7 @@ function intersection(list1, list2){
                                 elements.splice(elements.indexOf(element),1);
                                 return element;
                             }
-                            });
+    });
 }
 
 function main() {
