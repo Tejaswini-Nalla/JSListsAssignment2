@@ -5,7 +5,7 @@ function isUniqueElement(currentElement,index,list) {
 }
 
 function isDistinct(list) {
-    return list.every(isUniqueElement)
+    return list.every(isUniqueElement);
 }
 
 function main() {

@@ -1,6 +1,5 @@
 function drop(list, numberOfElements) {
-    let startIndex = numberOfElements;
-    return list.slice(startIndex);
+    return list.slice(numberOfElements);
 }
 
 function main() {
