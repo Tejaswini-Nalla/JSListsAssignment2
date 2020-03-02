@@ -3,6 +3,7 @@ function isUniqueElement(currentElement,index,list) {
     let numberOfOccurrences = list.filter(elementOccurrences).length;
     return numberOfOccurrences === 1;
 }
+
 function isDistinct(list) {
     return list.every(isUniqueElement)
 }

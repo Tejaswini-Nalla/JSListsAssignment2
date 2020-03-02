@@ -1,6 +1,5 @@
 function excludeLastElement(list) {
-    let endIndex = list.length - 1;
-    return list.slice(0,endIndex);
+    return list.slice(0,list.length - 1);
 }
 
 function main() {
